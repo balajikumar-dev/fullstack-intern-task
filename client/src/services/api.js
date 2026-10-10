@@ -3,7 +3,8 @@ import axios from 'axios';
 export const TOKEN_KEY = 'forma.accessToken';
 export const readToken = () => localStorage.getItem(TOKEN_KEY);
 const baseURL = (import.meta.env.VITE_API_URL || '/api').replace(/\/$/, '');
-const api = axios.create({ baseURL, timeout: 15000 });
+// Allow a sleeping Render Free service to wake; requests are never retried automatically.
+const api = axios.create({ baseURL, timeout: 75000 });
 
 api.interceptors.request.use((config) => {
   const token = readToken();

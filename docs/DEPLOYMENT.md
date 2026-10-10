@@ -28,6 +28,8 @@ If the final frontend URL is not known yet, use `http://localhost:5173` for `CLI
 
 The Blueprint requests Render's Free plan for this assessment demo. Free services sleep after 15 minutes without incoming traffic, so an initial request can take about a minute to start the service. Check current quotas and account requirements before deploying. See [Render Free service limits](https://render.com/docs/free).
 
+The frontend waits up to 75 seconds for each API request so the backend has time to wake. Keep the page open while its loading indicator is visible. Requests are not retried automatically, including registration and favorite changes. If a catalog request times out, wait briefly and use **Try again**. If registration times out, try logging in before submitting another registration because the server may already have created the account.
+
 ## 3. Seed the hosted database
 
 Seeding is an explicit command, separate from application startup. On your local computer, temporarily set `MONGO_URI` in the ignored `server/.env` file to the Atlas URI and allow your current IP in Atlas. From `server/`, run:
@@ -74,7 +76,7 @@ After Vercel assigns the production URL, set the backend's `CLIENT_ORIGIN` to th
 
 | Symptom                                          | Check                                                                                                                                      |
 | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| Frontend shows a network error                   | Confirm `VITE_API_URL` ends in `/api`, then rebuild the frontend. On a sleeping free backend, allow its first request to finish and retry. |
+| Frontend shows a network error                   | Confirm `VITE_API_URL` ends in `/api`, then rebuild the frontend. On a sleeping free backend, allow up to 75 seconds; after a timeout, wait briefly and retry the catalog manually. |
 | Browser reports a CORS error                     | Match `CLIENT_ORIGIN` to the frontend's exact scheme and hostname. It must not include a route.                                            |
 | Backend fails to start                           | Check Atlas network access, database-user permissions, `MONGO_URI` and `JWT_SECRET` in the hosting settings.                               |
 | Template list is empty                           | Run the seed against the same database URI used by the deployed backend.                                                                   |

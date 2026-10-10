@@ -2,7 +2,7 @@
 # https://render.com/docs/blueprint-spec
 services:
   - type: web
-    name: forma-template-store-api
+    name: mini-saas-template-store-api
     runtime: node
     plan: free
     rootDir: server
