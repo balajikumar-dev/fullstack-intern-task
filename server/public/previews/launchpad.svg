@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title">
+  <title id="title">Launchpad — a sage green SaaS landing page preview</title>
+  <defs><pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#cbd4bd"/></pattern><linearGradient id="card" x2="1" y2="1"><stop stop-color="#e7edda"/><stop offset="1" stop-color="#c6d3af"/></linearGradient></defs>
+  <rect width="800" height="520" fill="#f5f4ec"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#253329">
+    <path d="M38 30h10v10H38zM51 30h10v10H51zM38 43h10v10H38zM51 43h10v10H51z" fill="#506447"/>
+    <text x="72" y="49" font-size="21" font-weight="700" letter-spacing="-1">launchpad</text>
+    <g font-size="11"><text x="350" y="45">Product</text><text x="423" y="45">Solutions</text><text x="507" y="45">Resources</text><text x="600" y="45">Log in</text></g>
+    <rect x="667" y="25" width="95" height="32" rx="16" fill="#253329"/><text x="687" y="45" font-size="11" fill="#fff">Start for free ↗</text>
+    <line x1="38" y1="78" x2="762" y2="78" stroke="#dcded1"/>
+    <rect x="38" y="109" width="163" height="25" rx="12" fill="#e5eadb"/><circle cx="51" cy="121" r="3" fill="#657f49"/><text x="62" y="125" font-size="10" font-weight="700" letter-spacing=".6">A LITTLE MORE POSSIBILITY</text>
+    <text x="38" y="190" font-size="48" font-weight="700" letter-spacing="-2.8">Less busywork.</text>
+    <text x="38" y="243" font-size="48" font-weight="700" letter-spacing="-2.8">More possibility.</text>
+    <text x="40" y="281" font-size="13" fill="#6e7668">Bring your people, projects, and best ideas</text><text x="40" y="301" font-size="13" fill="#6e7668">together. Make room for the work that matters.</text>
+    <rect x="39" y="326" width="136" height="39" rx="20" fill="#536944"/><text x="59" y="350" font-size="12" fill="#fff">Make your next move ↗</text><text x="193" y="350" font-size="12">See how it works</text>
+    <g transform="translate(40 393)"><circle cx="12" cy="12" r="12" fill="#d3b392"/><circle cx="32" cy="12" r="12" fill="#899979" stroke="#f5f4ec" stroke-width="2"/><circle cx="52" cy="12" r="12" fill="#d4c99d" stroke="#f5f4ec" stroke-width="2"/><path d="M4 18q8-9 16 0M24 18q8-9 16 0M44 18q8-9 16 0" fill="#465942"/><text x="78" y="9" font-size="11" font-weight="700">Good company. Great work.</text><text x="78" y="25" font-size="10" fill="#737c6e">Loved by 12,000+ forward-thinking teams</text></g>
+    <rect x="449" y="112" width="313" height="313" rx="150" fill="url(#card)"/>
+    <path d="M672 87c-34 68 90 86 71 128s-126 7-135 83 129 58 133 98" fill="none" stroke="#b8c995" stroke-width="15"/>
+    <rect x="434" y="153" width="301" height="215" rx="13" fill="#253329" opacity=".1"/>
+    <rect x="426" y="143" width="301" height="215" rx="13" fill="#fffef9" stroke="#d8decd"/>
+    <path d="M426 156q0-13 13-13h275q13 0 13 13v20H426z" fill="#f0f2e9"/><circle cx="443" cy="160" r="3" fill="#d39c78"/><circle cx="454" cy="160" r="3" fill="#e0c781"/><circle cx="465" cy="160" r="3" fill="#a3b688"/>
+    <text x="445" y="199" font-size="12" font-weight="700">Your next big thing</text><text x="666" y="199" font-size="8" fill="#788270">•••</text>
+    <rect x="443" y="214" width="83" height="119" rx="6" fill="#f2f4eb"/><rect x="535" y="214" width="82" height="119" rx="6" fill="#f4f1e8"/><rect x="626" y="214" width="83" height="119" rx="6" fill="#eef0e6"/>
+    <g font-size="8" font-weight="700"><text x="452" y="231">TO DO</text><text x="544" y="231">IN PROGRESS</text><text x="635" y="231">GOOD TO GO</text></g>
+    <rect x="450" y="241" width="69" height="57" rx="4" fill="#fff"/><rect x="542" y="241" width="68" height="78" rx="4" fill="#fff"/><rect x="633" y="241" width="69" height="57" rx="4" fill="#fff"/>
+    <g font-size="7"><text x="456" y="255">Shape the idea</text><text x="548" y="255">Build something</text><text x="548" y="266">worth sharing</text><text x="639" y="255">Make it happen</text></g>
+    <g fill="#dbe6cb"><rect x="456" y="269" width="31" height="8" rx="4"/><rect x="548" y="277" width="37" height="8" rx="4"/><rect x="639" y="269" width="29" height="8" rx="4"/></g>
+    <circle cx="600" cy="306" r="6" fill="#e5bf9e"/>
+    <rect x="550" y="339" width="200" height="67" rx="11" fill="#293c2e"/><circle cx="579" cy="372" r="16" fill="#819b67"/><path d="m572 372 5 5 9-11" fill="none" stroke="#fff" stroke-width="2.5"/><text x="605" y="369" font-size="11" font-weight="700" fill="#fff">A little momentum.</text><text x="605" y="386" font-size="10" fill="#c4d0b9">A lot of good things ahead.</text>
+    <line x1="38" y1="460" x2="762" y2="460" stroke="#dddfd2"/><text x="40" y="488" font-size="9" letter-spacing="1.2" fill="#79806e">MADE FOR TEAMS LIKE YOURS</text><g font-size="18" font-weight="700" fill="#6b7563"><text x="295" y="490">Layers</text><text x="429" y="490">◈ Quotient</text><text x="602" y="490">circooles</text></g>
+  </g>
+</svg>

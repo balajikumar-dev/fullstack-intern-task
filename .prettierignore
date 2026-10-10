@@ -1,0 +1,9 @@
+node_modules
+dist
+.step2-backup
+package-lock.json
+*.svg
+*.png
+*.jpg
+.env
+.env.*

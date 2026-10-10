@@ -1,0 +1,24 @@
+# Optional backend deployment. Add the real MongoDB URI and frontend origin in Render.
+# https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: forma-template-store-api
+    runtime: node
+    plan: free
+    rootDir: server
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: '24'
+      - key: NODE_ENV
+        value: production
+      - key: TRUST_PROXY
+        value: '1'
+      - key: MONGO_URI
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: CLIENT_ORIGIN
+        sync: false

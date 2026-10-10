@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title">
+  <title id="title">Atelier — a warm editorial creative portfolio with original abstract artworks</title>
+  <defs><clipPath id="large"><rect x="364" y="154" width="398" height="314" rx="2"/></clipPath><pattern id="lines" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><line x1="0" y1="0" x2="0" y2="12" stroke="#f4b388" stroke-width="3"/></pattern></defs>
+  <rect width="800" height="520" fill="#faf3e9"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#32281e">
+    <text x="36" y="48" font-size="26" font-weight="700" letter-spacing="-1.3">atelier<tspan fill="#b74d28">®</tspan></text><text x="328" y="44" font-size="10">INDEPENDENT DESIGN STUDIO</text><text x="617" y="44" font-size="11">Work</text><text x="665" y="44" font-size="11">About</text><circle cx="746" cy="40" r="17" fill="#30271d"/><text x="738" y="45" font-size="17" fill="#faf3e9">↗</text>
+    <line x1="36" y1="74" x2="762" y2="74" stroke="#d8cebf"/>
+    <text x="38" y="122" font-size="9" letter-spacing="1.5">GOOD IDEAS DESERVE TO BE SEEN.</text>
+    <text x="34" y="198" font-size="65" font-weight="700" letter-spacing="-4">A different</text><text x="34" y="264" font-size="65" font-weight="700" letter-spacing="-4">point of</text><text x="34" y="330" font-size="65" font-weight="700" letter-spacing="-4" fill="#ba4e2b">view.</text>
+    <path d="M240 287c16-14 52-3 30 24s-7 37 21 26" stroke="#ba4e2b" stroke-width="3" fill="none"/><path d="m281 331 12 7-13 4" stroke="#ba4e2b" stroke-width="3" fill="none"/>
+    <text x="38" y="374" font-size="12" fill="#82735e">We build identities, digital experiences,</text><text x="38" y="393" font-size="12" fill="#82735e">and things that make you look twice.</text>
+    <line x1="38" y1="439" x2="165" y2="439" stroke="#32281e"/><text x="38" y="429" font-size="11" font-weight="700">Explore selected work ↗</text>
+    <g clip-path="url(#large)"><rect x="364" y="154" width="398" height="314" fill="#cf6740"/><circle cx="725" cy="186" r="127" fill="#e69b6c"/><rect x="368" y="319" width="420" height="150" fill="#b54e2d"/><path d="M338 454q119-178 240-53t218-42v150H338z" fill="#f0b587"/>
+      <g transform="translate(451 180) rotate(-11 118 135)"><rect width="224" height="273" fill="#efead9"/><rect x="15" y="15" width="194" height="209" fill="#617480"/><circle cx="163" cy="61" r="31" fill="#e7c97e"/><path d="M15 171q50-117 105-76t89 30v99H15z" fill="#dc925c"/><path d="M15 199q75-107 146-51t48 18v58H15z" fill="#a6412b"/><path d="M15 211q100-52 194-20v33H15z" fill="#2c454a"/><text x="16" y="251" font-size="14" font-weight="700" letter-spacing="3">OUT OF OFFICE</text><text x="16" y="263" font-size="6" letter-spacing="1.1">A DIFFERENT PERSPECTIVE / VOL. 01</text></g>
+      <path d="M713 297q-61 55-27 164" fill="none" stroke="#633b26" stroke-width="4"/><path d="M686 417q-43-37-43-64 43 7 43 64M685 383q22-46 51-49 4 32-51 49M690 355q-31-37-29-57 29 8 29 57" fill="#354d3e"/>
+    </g>
+    <text x="365" y="489" font-size="10" font-weight="700">01 / OUT OF OFFICE</text><text x="626" y="489" font-size="9" fill="#8d7c68">Brand identity, Art direction</text>
+    <circle cx="697" cy="167" r="39" fill="#dedf80"/><path d="m697 141 5 17 17-5-12 14 13 12-18-2-5 18-5-18-18 2 13-12-12-14 17 5z" fill="#78683c"/>
+    <text x="37" y="492" font-size="9" fill="#988874">BASED EVERYWHERE. MADE WITH FEELING.</text>
+  </g>
+</svg>

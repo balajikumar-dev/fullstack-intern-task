@@ -1,0 +1,20 @@
+# Dependencies and generated builds (all project folders)
+node_modules/
+dist/
+coverage/
+
+# Local environment values and credentials
+.env
+.env.*
+!.env.example
+
+# Local hosting metadata
+.vercel/
+
+# Backups made by the Step 2 installer
+.step2-backup/
+
+# Logs and operating system files
+*.log
+.DS_Store
+Thumbs.db
