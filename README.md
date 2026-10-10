@@ -227,6 +227,32 @@ For a manual walkthrough: register, search/filter, open template details, save a
 
 Hosting configuration is provided in [the deployment guide](docs/DEPLOYMENT.md). A public live deployment is separate from these configuration files and should be linked here after it has been deployed and verified.
 
+
+## Live Deployment
+
+The Mini SaaS Template Store application is deployed online.
+
+- **Frontend (Vercel):** https://mini-saas-template-store.vercel.app
+- **Backend API (Render):** https://mini-saas-template-store-api.onrender.com
+- **GitHub Repository:** https://github.com/balajikumar-dev/fullstack-intern-task
+
+### Project Screenshots
+
+**Desktop View**
+
+![Mini SaaS Template Store Desktop](docs/images/template-store-desktop.jpg)
+
+**Mobile View**
+
+![Mini SaaS Template Store Mobile](docs/images/template-store-mobile.jpg)
+
+### Deployment Note
+
+The backend uses the Render free tier. Initial requests may take longer while the server wakes from inactivity.
+
+If you experience issues running or accessing the application, please contact me through the submission email.
+  
+
 For a guided code review and demonstration, see [the project walkthrough](docs/PROJECT-WALKTHROUGH.md).
 
 Local test results and remaining submission steps are recorded in [verification notes](docs/VERIFICATION.md).
