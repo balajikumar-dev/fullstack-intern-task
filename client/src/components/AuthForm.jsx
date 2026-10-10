@@ -235,7 +235,7 @@ export default function AuthForm({ mode }) {
             </button>
           </form>
           <p className="auth-switch">
-            {registering ? 'Already part of Forma?' : 'New around here?'}{' '}
+              {registering ? 'Already have an account?' : 'New around here?'}{' '}
             <Link to={registering ? '/login' : '/register'} state={location.state}>
               {registering ? 'Log in' : 'Create an account'}
             </Link>

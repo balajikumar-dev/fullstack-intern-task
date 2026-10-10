@@ -1,4 +1,4 @@
-# Deploy Forma
+# Deploy Mini SaaS Template Store
 
 The repository includes configuration for a Vercel frontend and a Render backend. MongoDB Atlas provides the database. These files prepare deployment; they do not create accounts or provision services.
 

@@ -1,6 +1,6 @@
-# Understand and demonstrate Forma
+# Understand and demonstrate Mini SaaS Template Store
 
-Forma is a template discovery catalog. A visitor can browse six design concepts; a registered user can keep a private collection of favorites. The SVG thumbnails are design illustrations. The application demonstrates authentication, API integration and database persistence.
+Mini SaaS Template Store is a template discovery catalog. A visitor can browse six design concepts; a registered user can keep a private collection of favorites. The SVG thumbnails are design illustrations. The application demonstrates authentication, API integration and database persistence.
 
 ## Trace the main flows
 

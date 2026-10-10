@@ -19,7 +19,7 @@ import EmptyState from '../components/EmptyState';
 import usePageTitle from '../hooks/usePageTitle';
 
 export default function Templates() {
-  usePageTitle('Thoughtful templates. Fresh possibilities.');
+  usePageTitle();
   const [templates, setTemplates] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
@@ -76,9 +76,9 @@ export default function Templates() {
             <span className="live-dot" /> A GOOD PLACE TO START
           </span>
           <h1>
-            Less setup.
+            Mini SaaS
             <br />
-            More <em>possibility.</em>
+            <em>Template Store</em>
           </h1>
           <p className="hero-description">
             Thoughtful templates for your next big thing.

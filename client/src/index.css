@@ -157,13 +157,20 @@ svg {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  font-size: 29px;
+  flex-shrink: 0;
   font-weight: 750;
-  letter-spacing: -1.6px;
+  letter-spacing: -0.5px;
   line-height: 1;
 }
-.brand-dot {
-  color: #849c69;
+.brand-name {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 18px;
+}
+.brand-name > span:last-child {
+  font-size: 13px;
+  letter-spacing: 0.1px;
 }
 .brand-mark {
   display: grid;
@@ -1703,7 +1710,13 @@ svg {
     gap: 12px;
   }
   .brand {
-    font-size: 28px;
+    gap: 8px;
+  }
+  .brand-name {
+    font-size: 16px;
+  }
+  .brand-name > span:last-child {
+    font-size: 11px;
   }
   .header-actions {
     gap: 9px;
@@ -2185,6 +2198,15 @@ svg {
   .user-label {
     font-size: 11px;
     gap: 7px;
+  }
+}
+@media (max-width: 360px) {
+  .header-inner {
+    padding-inline: 14px;
+    gap: 8px;
+  }
+  .header-actions .button-small > svg {
+    display: none;
   }
 }
 @media (prefers-reduced-motion: reduce) {

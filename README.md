@@ -1,4 +1,4 @@
-# Forma — Mini SaaS Template Store
+# Mini SaaS Template Store
 
 A MERN application for discovering website templates and keeping a personal collection of favorites. Built for the **Gnxtace Technologies Software Engineer Intern Assessment**.
 
@@ -8,7 +8,9 @@ The six catalog entries are sample design concepts illustrated with original SVG
 
 **Contact:** [GitHub — balajikumar-dev](https://github.com/balajikumar-dev)
 
-![Forma template catalog](docs/images/forma-desktop.jpg)
+**Source:** [fullstack-intern-task](https://github.com/balajikumar-dev/fullstack-intern-task)
+
+![Mini SaaS Template Store catalog](docs/images/template-store-desktop.jpg)
 
 ## Features
 
